@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets — NEVER commit
+.env
+*.key
+*.token
+
+# Data & model artifacts (too big / regenerable)
+data/
+*.pt
+*.bin
+*.safetensors
+out*/
+checkpoints/
+
+# Experiment tracking
+wandb/
+
+# OS
+.DS_Store

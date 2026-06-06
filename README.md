@@ -1,0 +1,39 @@
+# llm-from-scratch
+
+My journey from AI applications engineer → LLM pre-training + data researcher.
+Trained models, datasets, and experiments, built in the open.
+
+**Plan & curriculum:** `AI-Agents/profile/researcher/` (24-month track).
+
+## Structure
+
+| Folder | Phase | What lives here |
+|--------|-------|-----------------|
+| `p1_gpt/` | Phase 1 | GPT from scratch — own tokenizer, own model (Raschka + Karpathy) |
+| `p2_pretrain/` | Phase 2 | Real pre-training, systems, GPT-2 124M reproduction (CS336) |
+| `p3_data/` | Phase 3 | Data curation + synthetic data pipelines (datatrove, FineWeb-style) |
+| `p4_posttrain/` | Phase 4 | SFT, DPO/RLHF, evals |
+| `scripts/` | — | Utilities (e.g. W&B smoke test) |
+| `notes/` | — | Paper notes, screenshots, learnings |
+
+## Setup
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env   # then paste your real tokens into .env (gitignored)
+```
+
+## Track record
+
+Experiments logged to Weights & Biases (`pretraining` project). Progress log in
+`AI-Agents/profile/researcher/progress_log.md`.
+
+## Milestones
+
+- [ ] M0 — nanoGPT trained + logged (Phase 0)
+- [ ] M1 — own GPT + own tokenizer, trained from scratch (Phase 1)
+- [ ] M2 — reproduced GPT-2 124M (Phase 2)
+- [ ] M3 — 2 published datasets + ablation report (Phase 3)
+- [ ] M4 — base→instruct model pair + research note (Phase 4)
+- [ ] M5 — OSS contributions + reproduced recent result + paper (Year 2)

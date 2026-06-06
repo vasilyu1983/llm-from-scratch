@@ -1,0 +1,9 @@
+# Core (Phase 0-1). Install torch matching your machine/GPU from https://pytorch.org if needed.
+torch
+numpy
+wandb
+tiktoken
+huggingface_hub
+python-dotenv
+jupyter
+matplotlib
