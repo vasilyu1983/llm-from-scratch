@@ -24,8 +24,7 @@ cp .env.example .env   # then paste your real tokens into .env (gitignored)
 
 ## Track record
 
-Experiments logged to Weights & Biases (`pretraining` project). Progress log in
-`AI-Agents/profile/researcher/progress_log.md`.
+Experiments logged to Weights & Biases (`pretraining` project).
 
 ## Milestones
 
