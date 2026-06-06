@@ -1,9 +1,7 @@
 # llm-from-scratch
 
-My journey from AI applications engineer → LLM pre-training + data researcher.
-Trained models, datasets, and experiments, built in the open.
-
-**Plan & curriculum:** `AI-Agents/profile/researcher/` (24-month track).
+Learning LLM pre-training and data engineering by building from scratch —
+trained models, datasets, and experiments, in the open.
 
 ## Structure
 
