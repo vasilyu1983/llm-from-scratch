@@ -28,7 +28,7 @@ Experiments logged to Weights & Biases (`pretraining` project).
 
 ## Milestones
 
-- [ ] M0 — nanoGPT trained + logged (Phase 0)
+- [x] M0 — nanoGPT trained + logged (Phase 0) — RTX 4090, val loss 1.47, [W&B run](https://wandb.ai/vasilyu-/pretraining/runs/yse7n9ae)
 - [ ] M1 — own GPT + own tokenizer, trained from scratch (Phase 1)
 - [ ] M2 — reproduced GPT-2 124M (Phase 2)
 - [ ] M3 — 2 published datasets + ablation report (Phase 3)
